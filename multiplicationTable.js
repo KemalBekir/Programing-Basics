@@ -1,9 +1,8 @@
-function multiplication() {
-    for (let i = 1; i <= 10; i++) {
-        for (let j = 1; j <= 10; j++) {
-            console.log(`${i} * ${j} = ${i * j}`);
-        }
+function multiplicationTable(num){
+    for(let i = 1; i <= 10; i++){
+            console.log(`${num} X ${i} = ${num * i}`);  
     }
 }
 
-multiplication()
+multiplicationTable(5)
+multiplicationTable(2)
